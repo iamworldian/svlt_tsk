@@ -2,6 +2,8 @@
 	import Promotion from '$lib/components/Promotion.svelte';
 	import Nav from '$lib/components/Nav.svelte';
 	import Feature from '$lib/components/Feature/Feature.svelte';
+	import '../app.css';
+
 </script>
 
 <main class="min-h-screen overflow-auto bg-black text-white lg:overflow-hidden">

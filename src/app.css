@@ -3,26 +3,26 @@
 @import 'tailwindcss';
 
 .debug {
-	border: 1px solid yellowgreen;
+   border: 1px solid yellowgreen;
 }
 
-@theme {
-	--font-figtree: 'Figtree', sans-serif;
-	--font-urbanist: 'Urbanist', sans-serif;
-	--font-nunito: 'Nunito', sans-serif;
+:root {
+   --font-figtree: 'Figtree', sans-serif;
+   --font-urbanist: 'Urbanist', sans-serif;
+   --font-nunito: 'Nunito', sans-serif;
 
-	--color-primary: #fc004e;
-	--color-secondary: #10cbe0;
-	--color-tertiary: #ababab;
-	--color-quaternary: #a9a9a9;
+   --color-primary: #fc004e;
+   --color-secondary: #10cbe0;
+   --color-tertiary: #ababab;
+   --color-quaternary: #a9a9a9;
 
-	--color-dark: #010101;
+   --color-dark: #010101;
 
-	--gradient-primary-secondary: linear-gradient(
-		90deg,
-		var(--color-primary) 0%,
-		var(--color-secondary) 100%
-	);
+   --gradient-primary-secondary: linear-gradient(
+	   90deg,
+	   var(--color-primary) 0%,
+	   var(--color-secondary) 100%
+   );
 
-	--breakpoint-xs: 390px;
+   --breakpoint-xs: 390px;
 }
