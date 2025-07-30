@@ -2,6 +2,7 @@
 <script lang="ts">
 
 	import '../app.css';
+
 </script>
 
 <svelte:head>
@@ -13,3 +14,4 @@
 <body class="bg-dark font-figtree text-white antialiased">
 	<slot />
 </body>
+

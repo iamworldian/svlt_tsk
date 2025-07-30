@@ -13,7 +13,15 @@
 </section>
 
 <style>
+	@reference "../../app.css";
 
-
-
+	.bg-gradient {
+		background-image: var(--gradient-primary-secondary);
+	}
+	.emoji {
+		@apply flex-shrink-0 text-center font-figtree text-[15px] leading-none font-extrabold md:text-right lg:text-[20px];
+	}
+	.banner-text {
+		@apply text-center font-figtree text-[15px] leading-none text-white sm:text-[15px] md:text-left xl:text-[20px] tracking-wide;
+	}
 </style>

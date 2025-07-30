@@ -9,7 +9,7 @@
 	@reference "../../../app.css";
 
 	.hero-heading {
-		@apply text-center font-urbanist text-[25px] font-extrabold sm:text-[28px] md:text-left md:font-bold xl:text-[35px] m-0 p-0;
+		@apply text-center font-urbanist text-[25px] leading-[1.15] font-extrabold sm:text-[28px] md:text-left md:font-bold xl:text-[35px];
 	}
 
 	.hero-heading-highlight {
