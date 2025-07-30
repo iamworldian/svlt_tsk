@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree&family=Urbanist&family=Nunito&display=swap');
+
+@import 'tailwindcss';
+
+.debug {
+	border: 1px solid yellowgreen;
+}
+
+@theme {
+	--font-figtree: 'Figtree', sans-serif;
+	--font-urbanist: 'Urbanist', sans-serif;
+	--font-nunito: 'Nunito', sans-serif;
+
+	--color-primary: #fc004e;
+	--color-secondary: #10cbe0;
+	--color-tertiary: #ababab;
+	--color-quaternary: #a9a9a9;
+
+	--color-dark: #010101;
+
+	--gradient-primary-secondary: linear-gradient(
+		90deg,
+		var(--color-primary) 0%,
+		var(--color-secondary) 100%
+	);
+
+	--breakpoint-xs: 390px;
+}
+
+
+	.feature-btn {
+		@apply h-[40px] w-full cursor-pointer rounded-[10px] bg-primary font-figtree text-xl leading-none font-bold drop-shadow-[2px_2px_5px_rgb(0,231,249)] hover:bg-primary/80;
+	}
+
+	.feature-text {
+		@apply text-center align-middle font-figtree text-[12px] leading-[16px] font-normal;
+	}
+
+	.terms {
+		@apply text-center align-middle font-figtree text-[12px] leading-none font-medium text-tertiary md:text-left;
+	}
+
+	.copy {
+		@apply text-center align-middle font-nunito text-[10px] leading-none font-medium text-tertiary md:text-left md:font-figtree;
+	}
+
+
+	.bg-gradient {
+		background-image: var(--gradient-primary-secondary);
+	}
+	.emoji {
+		@apply flex-shrink-0 text-center font-figtree text-[15px] leading-none font-extrabold md:text-right lg:text-[20px];
+	}
+	.banner-text {
+		@apply text-center font-figtree text-[15px] leading-none text-white sm:text-[15px] md:text-left xl:text-[20px] tracking-wide;
+	}
